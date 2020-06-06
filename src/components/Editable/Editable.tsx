@@ -1,4 +1,4 @@
-import { useState, ReactNode, Ref, useEffect } from "react";
+import { useState, ReactNode, useEffect } from "react";
 
 type EditableProps = {
   text: string
