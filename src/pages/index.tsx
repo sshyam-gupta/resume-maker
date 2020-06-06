@@ -4,8 +4,8 @@ import Editable from "../components/Editable";
 const IndexPage = () => {
   const [description, setDescription] = useState("");
   const [task, setTask] = useState("");
-  const inputRef = useRef();
-  const textareaRef = useRef();
+  const inputRef = useRef(null);
+  const textareaRef = useRef(null);
 
 
   return (
