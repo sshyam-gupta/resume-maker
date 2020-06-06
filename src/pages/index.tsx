@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-import Editable from "../components/Editable";
+import Editable from "../components/Editable/Editable";
 
 const IndexPage = () => {
   const [description, setDescription] = useState("");
